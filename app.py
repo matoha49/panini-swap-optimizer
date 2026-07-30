@@ -136,8 +136,8 @@ def main():
     st.write("Nahrajte dve zbierky a vyberte pravidlo výmeny.")
 
     name_columns = st.columns(2)
-    first_name = name_columns[0].text_input("Meno prvého zberateľa", "Matej")
-    second_name = name_columns[1].text_input("Meno druhého zberateľa", "Martin")
+    first_name = name_columns[0].text_input("Meno prvého zberateľa")
+    second_name = name_columns[1].text_input("Meno druhého zberateľa")
 
     file_columns = st.columns(2)
     first_file = file_columns[0].file_uploader(
